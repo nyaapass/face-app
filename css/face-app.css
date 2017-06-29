@@ -30,6 +30,10 @@ html {
         opacity: 0.8; }
       html body .phone-container .phone-body .login-input {
         margin-bottom: 30px; }
+        html body .phone-container .phone-body .login-input .camera {
+          width: 340px;
+          margin: 0 auto;
+          display: inline-block; }
     html body .mdui-snackbar {
       background-color: #40444c;
       width: 360px;
