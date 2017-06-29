@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>人脸验证</title>
+    <link rel="stylesheet" href="css/mdui.min.css">
+    <link rel="stylesheet" href="css/face-app.css">
+</head>
+
+<body class="mdui-theme-primary-blue mdui-theme-accent-pink">
+    <div class="phone-container">
+        <div class="phone-head"></div>
+        <div class="phone-body mdui-container">
+
+            <h1 class="text-center facein-title">FaceIN</h1>
+
+            <div class="login-input">
+                <div class="mdui-textfield mdui-textfield-floating-label">
+                    <label class="mdui-textfield-label">用户名</label>
+                    <input class="mdui-textfield-input" id="user-name" />
+                </div>
+
+                <div class="mdui-textfield mdui-textfield-floating-label">
+                    <label class="mdui-textfield-label">密码</label>
+                    <input class="mdui-textfield-input" id="first-passwd" type="password" />
+                </div>
+
+                <div class="mdui-textfield mdui-textfield-floating-label enroll-confirm-passwd">
+                    <label class="mdui-textfield-label">确认密码</label>
+                    <input class="mdui-textfield-input" id="confirm-passwd" type="password" />
+                </div>
+            </div>
+
+            <div class="login-buttons">
+                <div class="mdui-row-xs-2 login-button text-center login-btn-list">
+                    <div class="mdui-col">
+                        <button class="mdui-btn mdui-btn-block mdui-btn-raised mdui-ripple mdui-color-blue" id="log-login-btn">登录</button>
+                    </div>
+                    <div class="mdui-col">
+                        <button class="mdui-btn mdui-btn-block mdui-btn-raised mdui-ripple" id="log-enroll-btn">注册</button>
+                    </div>
+                </div>
+
+                <div class="mdui-row-xs-2 login-button text-center enroll-btn-list">
+                    <div class="mdui-col">
+                        <button class="mdui-btn mdui-btn-block mdui-btn-raised mdui-ripple mdui-color-blue" id="en-enroll-btn">注册</button>
+                    </div>
+                    <div class="mdui-col">
+                        <button class="mdui-btn mdui-btn-block mdui-btn-raised mdui-ripple enroll-btn" id="en-cancel-btn">取消</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="phone-foot"></div>
+    </div>
+
+    <script src="js/mdui.min.js" charset="utf-8"></script>
+    <script src="js/login.js" charset="utf-8"></script>
+</body>
+
+</html>
