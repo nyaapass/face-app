@@ -72,5 +72,8 @@ html {
       width: 360px;
       box-shadow: none;
       border-radius: 0; }
+      @media screen and (max-width: 480px) {
+        html body .mdui-snackbar {
+          width: 100%; } }
 
 /*# sourceMappingURL=face-app.css.map */

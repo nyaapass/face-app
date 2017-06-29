@@ -112,6 +112,10 @@ html {
             width: 360px;
             box-shadow: none;
             border-radius: 0;
+
+            @media screen and (max-width: 480px) {
+                width: 100%;
+            }
         }
     }
 }
