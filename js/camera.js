@@ -3,6 +3,12 @@ var $$ = mdui.JQ;
 $$('#canvas').hide();
 $$('.output').hide();
 
+$$('#againbutton').on('click', function (e) {
+    $$('.camera').show();
+    $$('.output').hide();
+    $$('#photo').toggleClass('no-photo');
+});
+
 (function() {
   // The width and height of the captured photo. We will set the
   // width to the value defined here, but the height will be

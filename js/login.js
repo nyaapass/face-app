@@ -8,7 +8,7 @@ $$('#log-login-btn').on('click', function(e) {
         fpw = $$('#first-passwd').val();
     if (un == "" || fpw == "" || $$('#photo').hasClass('no-photo')) {
         mdui.snackbar({
-            message: "请输入用户名/密码",
+            message: "请输入用户名并拍照",
         });
         return;
     } else {
@@ -31,7 +31,7 @@ $$('#en-enroll-btn').on('click', function(e) {
     cpw = $$('#confirm-passwd').val();
     if (un == "" || fpw == "" || cpw == "" || $$('#photo').hasClass('no-photo')) {
         mdui.snackbar({
-            message: "请输入用户名/密码",
+            message: "请输入用户名并拍照",
         });
         return;
     } else if (fpw != cpw) {
