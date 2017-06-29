@@ -31,7 +31,7 @@ html {
       html body .phone-container .phone-body .login-input {
         margin-bottom: -20px; }
         html body .phone-container .phone-body .login-input .camera {
-          width: 340px;
+          width: 100%;
           margin: 10px auto 0 auto;
           display: inline-block; }
           html body .phone-container .phone-body .login-input .camera #startbutton {
@@ -42,7 +42,7 @@ html {
             bottom: 40px;
             font-size: 14px; }
         html body .phone-container .phone-body .login-input .output {
-          width: 340px;
+          width: 100%;
           margin: 10px auto 0px auto;
           display: inline-block; }
           html body .phone-container .phone-body .login-input .output #againbutton {
