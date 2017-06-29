@@ -29,10 +29,21 @@ html {
       html body .phone-container .phone-body .facein-title {
         opacity: 0.8; }
       html body .phone-container .phone-body .login-input {
-        margin-bottom: 30px; }
+        margin-bottom: -20px; }
         html body .phone-container .phone-body .login-input .camera {
           width: 340px;
-          margin: 0 auto;
+          margin: 10px auto 0 auto;
+          display: inline-block; }
+          html body .phone-container .phone-body .login-input .camera #startbutton {
+            display: block;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            bottom: 40px;
+            font-size: 14px; }
+        html body .phone-container .phone-body .login-input .output {
+          width: 340px;
+          margin: 10px auto 30px auto;
           display: inline-block; }
     html body .mdui-snackbar {
       background-color: #40444c;
