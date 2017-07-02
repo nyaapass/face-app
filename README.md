@@ -15,6 +15,8 @@
 
 预览页面的摄像头调用只支持 PC 和安卓设备, 因为使用了 WebRTC, 而现在的 iOS 设备原生是不支持 WebRTC 的.
 
+值得注意的是, 如果你想要在本地打开页面调试, 你可能也看不到摄像头的画面, 这是因为 Chrome 浏览器必须使用 HTTPS 服务才能调用本地摄像头和麦克风, 你可以参考 [这个小教程](https://yangbo.tech/2016/08/19/local-https-server-with-custom-domain-in-1-minute/) 来生成证书并快速架起一个本地 HTTPS 服务器.
+
 如果要在 iOS 下拍摄照片并上传, 可以考虑原生的 HTML `<inpu>` 表单 [(参考 W3C 文档)](https://w3c.github.io/html-media-capture/), 使用 `capture="user"` 来调用前置摄像头:
 ```html
 <form action="server.cgi" method="post" enctype="multipart/form-data">
