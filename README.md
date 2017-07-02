@@ -15,4 +15,7 @@
 
 预览页面的摄像头调用只支持 PC 和安卓设备, 因为使用了 WebRTC, 而现在的 iOS 设备原生是不支持 WebRTC 的.
 
-如果要在 iOS 下拍摄照片并上传, 可以考虑原生的 `<inpu>` 表单 [(参考 W3C 文档)](https://w3c.github.io/html-media-capture/):  `<input type="file" name="image" accept="image/*" capture="user">`
+如果要在 iOS 下拍摄照片并上传, 可以考虑原生的 HTML `<inpu>` 表单 [(参考 W3C 文档)](https://w3c.github.io/html-media-capture/):
+```html
+<input type="file" name="image" accept="image/*" capture="user">
+```
