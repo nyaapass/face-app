@@ -1,7 +1,7 @@
 # FaceIN
 
 - 如果要修改或增加代码, 请建立一个新的分支再修改或增加代码, 再 Pull Request
-- 如果有问题请直接提 [Issue](https://github.com/wsx-666/face-in/issues/new), 有一个记录页面后面写文档报告也方便 
+- 如果有问题请直接提 [Issue](https://github.com/wsx-666/face-in/issues/new), 有一个记录页面后面写文档报告也方便
 
 ## 实现思路 (简单版)
 
@@ -18,7 +18,7 @@
 
 值得注意的是, 如果你想要在本地打开页面调试, 你可能也看不到摄像头的画面, 这是因为 Chrome 浏览器必须使用 HTTPS 服务才能调用本地摄像头和麦克风, 你可以参考 [这个小教程](https://yangbo.tech/2016/08/19/local-https-server-with-custom-domain-in-1-minute/) 来生成证书并快速架起一个本地 HTTPS 服务器.
 
-如果要在 iOS 下拍摄照片并上传, 可以考虑原生的 HTML `<inpu>` 表单 [(参考 W3C 文档)](https://w3c.github.io/html-media-capture/), 使用 `capture="user"` 来调用前置摄像头:
+如果要在 iOS 下拍摄照片并上传, 可以考虑原生的 HTML `<input>` 表单 [(参考 W3C 文档)](https://www.w3.org/TR/html-media-capture/), 使用 `capture="user"` 来调用前置摄像头:
 ```html
 <form action="server.cgi" method="post" enctype="multipart/form-data">
   <input type="file" name="image" accept="image/*" capture="user">
