@@ -10,7 +10,7 @@
 3. 如果不行, 则使用密码登录
 4. 将页面使用 [Cordova](https://cordova.apache.org/) 打包成 APP
 
-以上思路可以用 Web App 的方式很简单地实现 (包括简单的拍照上传). 如果想要调用一些设备底层的东西 (比如调亮度, 推送通知之类的), 你就得使用原生或者是像 React Native 这样的的方式来开发 (全靠王大佬了).
+以上思路可以用 Web App 的方式很简单地实现 (包括简单的拍照上传). 如果想要调用一些设备底层的东西 (比如调亮度, 推送通知之类的), Cordova 有许多插件可以用. 如果项目准备做的更大, 可能就得使用原生或者是像 [React Native](https://facebook.github.io/react-native/) 这样的的方式来开发.
 
 ## [预览页面](https://wsx-666.github.io/face-in/index.html)
 
