@@ -8,13 +8,13 @@
 1. 登录页面下输入用户名并拍照
 2. 拍下照片后上传, 调 [Face++ API](https://console.faceplusplus.com.cn/documents/4887579) 确认你是你, 登录成功
 3. 如果不行, 则使用密码登录
-4. 将页面打包成 APP
+4. 将页面使用 [Cordova](https://cordova.apache.org/) 打包成 APP
 
 以上思路可以用 Web App 的方式很简单地实现 (包括简单的拍照上传). 如果想要调用一些设备底层的东西 (比如调亮度, 推送通知之类的), 你就得使用原生或者是像 React Native 这样的的方式来开发 (全靠王大佬了).
 
 ## [预览页面](https://wsx-666.github.io/face-in/index.html)
 
-预览页面的摄像头调用只支持 PC 和安卓设备, 因为使用了 WebRTC, 而现在的 iOS 设备原生是不支持 WebRTC 的.
+预览页面的摄像头调用只支持 PC 和安卓设备, 因为使用了 [WebRTC](https://webrtc.org/), 而现在的 iOS 设备原生是不支持 WebRTC 的.
 
 值得注意的是, 如果你想要在本地打开页面调试, 你可能也看不到摄像头的画面, 这是因为 Chrome 浏览器必须使用 HTTPS 服务才能调用本地摄像头和麦克风, 你可以参考 [这个小教程](https://yangbo.tech/2016/08/19/local-https-server-with-custom-domain-in-1-minute/) 来生成证书并快速架起一个本地 HTTPS 服务器.
 
