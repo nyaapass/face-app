@@ -5,18 +5,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>人脸验证</title>
-    <link rel="stylesheet" href="css/mdui.min.css">
-    <link rel="stylesheet" href="css/face-app.css">
-    <link rel="stylesheet" href="assets/demo.css">
+    <link rel="stylesheet" href="../css/mdui.min.css">
+    <link rel="stylesheet" href="../css/face-app.css">
+    <link rel="stylesheet" href="../assets/demo.css">
 
     <style type="text/css">
 
         @font-face {font-family: "iconfont";
-          src: url('assets/iconfont.eot'); /* IE9*/
-          src: url('assets/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
-          url('assets/iconfont.woff') format('woff'), /* chrome, firefox */
-          url('assets/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-          url('assets/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+          src: url('../assets/iconfont.eot'); /* IE9*/
+          src: url('../assets/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../assets/iconfont.woff') format('woff'), /* chrome, firefox */
+          url('../assets/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+          url('../assets/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
         }
 
         .iconfont {
@@ -46,7 +46,7 @@
             </div>
             
             <form>
-            <div class="login-input">
+            <div class="register-input">
                 <div class="mdui-textfield mdui-textfield-floating-label">
                     <label class="mdui-textfield-label">用户名</label>
                     <input class="mdui-textfield-input" id="user-name" />
@@ -56,29 +56,27 @@
   					<label class="mdui-textfield-label">密码</label>
   				    <input class="mdui-textfield-input" type="password" pattern="^.*(?=.{6,})(?=.*[a-z])(?=.*[A-Z]).*$" required/>
  				    <div class="mdui-textfield-error">密码至少 6 位，且包含大小写字母</div>
+				</div>	
+				
+				<div class="mdui-textfield mdui-textfield-floating-label password-repeat">
+  					<label class="mdui-textfield-label">重复密码</label>
+  				    <input class="mdui-textfield-input" type="password" required/>
+ 				    <div class="mdui-textfield-error">两次密码输入不同</div>
 				</div>
             </div>
 
-            <div class="mdui-m-t-2">
-                <div class="mdui-row-xs-2">
-                    <div class="mdui-col">
-                        <button class="mdui-btn mdui-btn-block mdui-btn-raised mdui-ripple mdui-color-blue" id="log-login-btn">登录</button>
-                    </div>
-                    <div class="mdui-col">
-                        <button class="mdui-btn mdui-btn-block mdui-btn-raised mdui-ripple" id="log-enroll-btn">刷脸登录</button>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="mdui-text-right mdui-m-t-5 register-text">
-            	<a href="pages/register.html" class="mdui-text-color-grey-600">注册账号</a>
+            <div class="mdui-m-t-1">
+              <button style="width: 50%;" class="mdui-center mdui-btn mdui-btn-raised mdui-ripple mdui-color-blue" id="log-login-btn">注册</button>
             </div>
             </form>
         </div>
     </div>
 
-    <script src="js/mdui.min.js" charset="utf-8"></script>
-    <script src="js/login.js" charset="utf-8"></script>
+    <script src="../js/mdui.min.js" charset="utf-8"></script>
+    <script src="../js/login.js" charset="utf-8"></script>
 </body>
 
 </html>
+
+
+
