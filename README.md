@@ -1,6 +1,6 @@
 # FaceIN
 
-- 如果要修改或增加代码, 请建立一个新的分支再修改或增加代码, 再 Pull Request
+- 如果要修改或增加代码, 请建立一个新的分支再修改或增加代码, 再 Pull Request 到 `dev` 分支
 - 如果有问题请直接提 [Issue](https://github.com/wsx-666/face-in/issues/new), 有一个记录页面后面写文档报告也方便
 
 ## 实现思路 (简单版)
