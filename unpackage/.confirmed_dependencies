@@ -1,0 +1,16 @@
+{
+  "index.html": {
+    "resources": [
+      "css/mdui.min.css",
+      "js/login.js",
+      "js/mdui.min.js",
+      "css/face-app.css",
+      "js/camera.js",
+      "assets/iconfont.css",
+      "assets/demo.css",
+      "assets/iconfont.woff",
+      "pages/register.html"
+    ],
+    "refer": []
+  }
+}
