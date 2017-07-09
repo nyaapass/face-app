@@ -9,4 +9,6 @@
 - [jlsuarezs/cordova-plugin-brightness](https://github.com/jlsuarezs/cordova-plugin-brightness)
 - [mgcrea/cordova-plugin-brightness](https://github.com/mgcrea/cordova-plugin-brightness)
 
+## About PhoneGap and Cordova 
+
 [PhoneGap 和 Cordova 的区别](https://www.zhihu.com/question/21649237)
